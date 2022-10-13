@@ -18,7 +18,7 @@ for row in ws:
         stu_total.append(sum_v)
     row_id += 1
 
-stu_total.reverse()
+stu_total.sort(reverse=True)
 stu_nu = len(stu_total)
 g_nu = { 'A' : 0, 'B' : 0, 'C' : 0 }
 for score in stu_total:
